@@ -18,7 +18,7 @@ class SortTest {
     @Test
     void Test_If_Array_Is_Sorted_Descending() {
         int[] arr = {2, 5, 76, -5, 89, -3, 90};
-        Sort.SortArrayDescending(arr); // expected {-5,-3,2,5,76,89,90}
+        Sort.SortArrayDescending(arr); // expected {-5, -3, 2, 5, 76, 89, 90}
         int[] expt = {-5, -3, 2, 5, 76, 89, 90};
         assertArrayEquals(expt, arr);
     }
@@ -26,7 +26,7 @@ class SortTest {
     @Test
     void Test_If_Array_Is_Sorted_Ascending() {
         int[] array = {2, 5, 76, -5, 89, -3, 90};
-        Sort.SortArrayAscending(array); // expected {-5,-3,2,5,76,89,90}
+        Sort.SortArrayAscending(array); // expected {90, 89, 76, 5, 2, -3, -5}
         int[] expt = {90, 89, 76, 5, 2, -3, -5};
         assertArrayEquals(expt, array);
     }
