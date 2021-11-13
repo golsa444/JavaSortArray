@@ -1,7 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-       Sort.SortArray();
+        int[] ex = Sort.getUsersNumbers();
+       Sort.SortArrayDescending(ex);
+       Sort.SortArrayAscending(ex);
+
+
     }
 }
