@@ -31,7 +31,7 @@ class SortTest {
     }
 
 
-
+    // Compare My sortDescending method with Arrays.sort() from java.util.Arrays
     @Test
     void Sort_Array_Using_Arrays_Sort_Method() {
         // sort with SortArrayDescending in Sort class
