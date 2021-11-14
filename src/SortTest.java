@@ -50,7 +50,7 @@ class SortTest {
     void Test_Random_Number_Generator_Method() {
 
         System.out.println(Sort.GetRandomNumber(10, 43));
-        // gonna throw an exeption id min is greater than max
+        // gonna throw an exeption if min is greater than max
         // System.out.println(Sort.GetRandomNumber(10, 4));
 
     }
