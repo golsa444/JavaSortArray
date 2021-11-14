@@ -13,4 +13,4 @@ This project takes a list of numbers (int) using the **showInputDialog()** metho
 $ git clone https://github.com/golsa444/JavaSortArray.git
 
 ```
-Then open the project folder using **IntelliJ IDEA CE** application.
+Open the project folder using **IntelliJ IDEA CE** application.
