@@ -7,7 +7,9 @@ public class Main {
         for (int i = 0; i < args.length; i++) {
             test[i] = Integer.parseInt(args[i]);
         }
-        Sort.SortArrayDescending(test);*/
+        Sort.SortArrayDescending(test);
+        Sort.SortArrayAscending(test);
+        */
 
         int[] ex = Sort.getUsersNumbers();
         Sort.SortArrayDescending(ex);
