@@ -22,6 +22,6 @@ $ git clone https://github.com/golsa444/JavaSortArray.git
 $ cd [project folder]
 $ cd src
 $ javac Main.java
-$ java Main
+$ java Main [arg0 arg1 arg2 arg3]
 
 ```
